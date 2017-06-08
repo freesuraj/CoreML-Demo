@@ -12,6 +12,7 @@
 		4FD0D1F51EE89E8100F1BE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0D1F31EE89E8100F1BE08 /* Main.storyboard */; };
 		4FD0D1F71EE89E8100F1BE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0D1F61EE89E8100F1BE08 /* Assets.xcassets */; };
 		4FD0D1FA1EE89E8100F1BE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0D1F81EE89E8100F1BE08 /* LaunchScreen.storyboard */; };
+		4FD0D2021EE89F4E00F1BE08 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0D2011EE89F4900F1BE08 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4FD0D1F61EE89E8100F1BE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD0D1F91EE89E8100F1BE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FD0D1FB1EE89E8100F1BE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD0D2011EE89F4900F1BE08 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../../../Applications/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4FD0D1EE1EE89E8100F1BE08 /* FlowerUp */ = {
 			isa = PBXGroup;
 			children = (
+				4FD0D2011EE89F4900F1BE08 /* GoogLeNetPlaces.mlmodel */,
 				4FD0D1EF1EE89E8100F1BE08 /* AppDelegate.swift */,
 				4FD0D1F11EE89E8100F1BE08 /* ViewController.swift */,
 				4FD0D1F31EE89E8100F1BE08 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				4FD0D1F21EE89E8100F1BE08 /* ViewController.swift in Sources */,
 				4FD0D1F01EE89E8100F1BE08 /* AppDelegate.swift in Sources */,
+				4FD0D2021EE89F4E00F1BE08 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
